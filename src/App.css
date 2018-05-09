@@ -1,28 +1,33 @@
-.App {
-  text-align: center;
+body {
+  background-color:black;
+  color:white;
+  background-image:url('./header.png');
+  /* background-size: 100% auto; */
+  font-family: 'PT Mono';
+  background-repeat: repeat-x;
+  background-position: center top;
+}
+.header {
+  padding: 30px;
+}
+.logo {
+  height: 114px;
+  width: 271px;
+  background-image: url('./anker-logo.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.container {
+  padding: 0 30px;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.modal {
+  background-color: rgba(255,255,255,0.95);
+  color: black;
+  font-family: 'Montserrat';
+  padding: 30px;
+  border-radius: 3px;
 }
