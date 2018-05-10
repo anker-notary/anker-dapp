@@ -94,11 +94,11 @@ class App extends Component {
               <div className="box">
                 <h1>ANKER_</h1>
                 <div className="text-m">
-                  <p>A very simple blockchain notary service. </p>
+                  <p>Notarise your documents on the Blockchain.</p>
                   <p>
                     Calculate the unique hash of your file locally, Anker will
-                    generate a smart contract which you can sign and broadcast
-                    using your Ethereum browser.{" "}
+                    add the hash to the Notary contract which you can sign and
+                    broadcast using your Ethereum browser.
                   </p>
                 </div>
               </div>
@@ -280,17 +280,21 @@ class App extends Component {
             <div className="col-md-6 col-sm-12 col-xs-12">
               <div className="text-m">
                 <p>
-                  The main difference is that Anker is not a government backed
-                  notary, so your government will never recognise it as such.{" "}
-                </p>
-                <p>
                   Given the fact that the basic principle behind the notary
                   system effectively didn’t change much over the last 400 years,
                   we hope that with this tool, we can convince governments all
                   over the world that notarisation now can be done faster,
                   cheaper and more reliable.{" "}
                 </p>
-                <p>Anker is an open source project, built by d1gits.</p>
+                <p>
+                  Anker is an{" "}
+                  <a href="https://github.com/anker-notary" target="_blank">
+                    open source project
+                  </a>, developed by{" "}
+                  <a href="https://github.com/d1gits" target="_blank">
+                    d1gits.
+                  </a>
+                </p>
               </div>
             </div>
           </div>
