@@ -2,24 +2,30 @@
   "name": "anker_",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://anker-notary.github.io/anker-dapp",
   "dependencies": {
     "js-sha256": "^0.9.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-dropzone": "^4.2.9",
-    "react-scripts": "1.1.4",
-    "sha.js": "^2.4.11",
     "react-redux": "^5.0.2",
     "react-router": "^3.0.2",
     "react-router-redux": "^4.0.7",
+    "react-scripts": "1.1.4",
     "redux": "^3.6.0",
     "redux-saga": "^0.15.3",
+    "sha.js": "^2.4.11",
     "web3": "1.0.0-beta.34"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
   }
 }
