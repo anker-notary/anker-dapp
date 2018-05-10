@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Anker",
+  "name": "Anker - open source notary system on Ethereum",
   "icons": [
     {
       "src": "favicon.ico",

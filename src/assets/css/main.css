@@ -11,14 +11,18 @@ html {
   -webkit-font-smoothing: antialiased;
   text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
 }
+
 body {
+  margin: 0;
+  padding: 0;
   background-color: black;
   color: white;
   font-size: 16px;
   line-height: 24px;
   /* letter-spacing: 0.2px; */
 
-  background-image: url("./header.png"), url("./anchor.svg"), url("./ship.svg");
+  background-image: url("../images/header.png"), url("../images/anchor.svg"),
+    url("../images/ship.svg");
   /* background-size: 100% auto; */
   font-family: "PT Mono";
   background-repeat: repeat-x, no-repeat, no-repeat;
@@ -35,7 +39,7 @@ p {
 .logo {
   height: 114px;
   width: 271px;
-  background-image: url("./anker-logo.svg");
+  background-image: url("../images/anker-logo.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center top;
@@ -101,19 +105,19 @@ p {
   height: 200px;
 }
 .icon-fingerprint {
-  background-image: url("./fingerprint.svg");
+  background-image: url("../images/fingerprint.svg");
   background-repeat: no-repeat;
   background-position: 22%;
 }
 
 .icon-decentralized {
-  background-image: url("./decentralized.svg");
+  background-image: url("../images/decentralized.svg");
   background-repeat: no-repeat;
   background-position: 35%;
 }
 
 .icon-verify {
-  background-image: url("./verify.svg");
+  background-image: url("../images/verify.svg");
   background-repeat: no-repeat;
   background-position: 40%;
 }
@@ -183,7 +187,7 @@ p {
   margin-right: 8px;
 }
 .cross-icon {
-  background-image: url("./close.svg");
+  background-image: url("../images/close.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -191,7 +195,7 @@ p {
   cursor: hand;
 }
 .file-icon {
-  background-image: url("./file.svg");
+  background-image: url("../images/file.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -200,7 +204,7 @@ p {
   flex: 0 0 35px;
   height: 40px;
   margin-right: -3px;
-  background-image: url("./fingerprint-icon.svg");
+  background-image: url("../images/fingerprint-icon.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top center;

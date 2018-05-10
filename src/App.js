@@ -3,9 +3,9 @@ import sha256 from "js-sha256";
 import Dropzone from "react-dropzone";
 
 // Styles
-import "./css/montserrat.css";
-import "./css/flexbox-grid-min.css";
-import "./App.css";
+import "./assets/css/montserrat.css";
+import "./assets/css/flexbox-grid-min.css";
+import "./assets/css/main.css";
 
 class App extends Component {
   constructor() {
