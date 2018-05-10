@@ -137,7 +137,6 @@ class App extends Component {
                     <div className="modal-item file">
                       <div className="modal-item-title">Fingerprint</div>
                       <div className="modal-item-content">
-                        <div className="modal-item-icon fingerprint-icon" />
                         <div className="modal-item-description">
                           {this.state.notahash
                             ? this.state.notahash
@@ -184,7 +183,6 @@ class App extends Component {
                     <div className="modal-item file">
                       <div className="modal-item-title">Fingerprint</div>
                       <div className="modal-item-content">
-                        <div className="modal-item-icon fingerprint-icon" />
                         <div className="modal-item-description">
                           {this.state.searchhash
                             ? this.state.searchhash

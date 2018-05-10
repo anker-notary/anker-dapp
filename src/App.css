@@ -54,6 +54,7 @@ p {
   border-radius: 3px;
   height: 302px;
   position: relative;
+  margin-bottom: 30px;
 }
 .modal-button {
   background: #00984e;
@@ -160,7 +161,7 @@ p {
 
 .modal-item-title {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 11px;
   color: #333;
   font-weight: bold;
 }
@@ -179,7 +180,7 @@ p {
   display: inline-block;
   height: 30px;
   width: 30px;
-  margin-right: 10px;
+  margin-right: 8px;
 }
 .cross-icon {
   background-image: url("./close.svg");
@@ -198,7 +199,7 @@ p {
 .fingerprint-icon {
   flex: 0 0 35px;
   height: 40px;
-  margin-right: 0px;
+  margin-right: -3px;
   background-image: url("./fingerprint-icon.svg");
   background-size: contain;
   background-repeat: no-repeat;
